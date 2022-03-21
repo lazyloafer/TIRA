@@ -1,0 +1,11 @@
+answer.csv:
+(object, source, 观测值)
+
+feature.txt:
+object特征，最后两列不需要
+
+truth.csv
+object，真值
+
+workers_weight.txt
+source，可信度
