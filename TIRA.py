@@ -10,7 +10,7 @@ import numpy as np
 import time
 
 # 'duck', 'WS', 'SP', 'dog', 'product', 'UC', 'valence7', 'valence5', 'fej2013', 'cf', 'trec2011'
-dataset = 'WS'
+dataset = 'duck'
 graph, edge_label, test_index = load_data(dataset=dataset,
                                           object_feature_path='./data/zzfx/{}/feature.txt'.format(dataset),
                                           answer_path='./data/zzfx/{}/answer.csv'.format(dataset),
